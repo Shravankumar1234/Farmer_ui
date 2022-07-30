@@ -21,7 +21,7 @@ const FileUpload = () => {
         formData.append("Image_Url",inputFile.current.files[0])
 
         dispatch(Upload_Issue(formData,alert))
-        // axios.post("http://localhost:8080/uploadIssue",formData,{
+        // axios.post("https://farmer-server1.herokuapp.com/uploadIssue",formData,{
         //     headers:{"Content-Type":"multiple/form-data"}
         // })
     }
